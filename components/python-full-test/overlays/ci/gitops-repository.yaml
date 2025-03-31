@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: python-full-test-gitops-repository
+spec:
+  url: https://github.com/prietyc123-qe-org/python-full-test-gitops
